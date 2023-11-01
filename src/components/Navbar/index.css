@@ -1,6 +1,77 @@
 .navbar {
+  /* margin: 0; */
+  box-sizing: border-box;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid black;
   display: flex;
-  justify-content: space-evenly;
+  flex-shrink: 0;
+  color: black;
+  z-index: 100;
+}
+
+/* Style for the logo */
+span {
+  float: left;
+
+  border-right: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-right: 1em;
+}
+.navbar .img {
+  float: left;
+  padding: 10px;
+  color: #1b97f5;
+}
+
+/* Style for the navigation items */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1.45em 1.2em;
+  text-decoration: none;
+  color: black;
+
+  border-right: 2px solid black;
+}
+.right-links {
+  margin-left: auto;
+}
+
+a.help-link {
+  border-right: none;
+}
+a:last-child {
+  border: none;
+}
+
+.sign-up-icon {
+  color: black;
+  height: 1.5em;
+  padding-left: 0.5em;
+  /* height: 50px; */
+}
+
+a.sign-up-link {
+  display: flex;
+}
+/* Add spacing between items */
+/* .navbar a:not(:first-child) {
+  margin-left: 10px;
+} */
+
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .logo-container {
@@ -10,4 +81,4 @@
 
 .solid-logo {
   width: 100%;
-}
+} */

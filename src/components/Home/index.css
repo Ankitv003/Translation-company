@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  border-bottom: 2px solid black;
+  padding-bottom: 5em;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.home-image {
+  position: absolute;
+  margin-top: 1.5em;
+  z-index: 1;
+  height: 75%;
+  max-height: 40vw;
+  transform: translate(-50%, -50%);
+  left: 80%;
+  top: 50%;
+}
+
+.home-title {
+  margin-top: 1.5em;
+  color: #1a1a1a;
+  text-wrap: wrap;
+  width: 45%;
+  margin-left: 1em;
+  text-align: left;
+  font-size: 5em;
+  font-weight: 700;
+}
+.home-para {
+  margin-top: 1.5em;
+  color: #1a1a1a;
+  text-wrap: wrap;
+  width: 40%;
+  margin-left: 4.2em;
+  text-align: left;
+  font-size: 1.22em;
+  font-weight: 600;
+}
+
+.star-icon {
+  color: #1a1a1a;
+  height: 0.5em;
+  padding-bottom: 0.1em;
+}
+
+.button-container {
+  display: flex;
+  margin-left: 4.2em;
+}
+
+.home-input-text {
+  background-color: aliceblue;
+}
+
+.home-link-icon {
+  margin-left: 2em;
+}
